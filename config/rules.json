@@ -1,0 +1,39 @@
+{
+  "address_proof_max_age_days": 90,
+  "income_tolerance_ratio": 1.4,
+  "name_token_similarity": 0.85,
+  "watchlist_similarity": 0.85,
+  "metadata_max_edit_gap_days": 1,
+  "known_editing_tools": ["editor", "filler", "sejda", "ilovepdf", "smallpdf", "foxit phantom"],
+  "pan_regex": "^[A-Z]{3}P[A-Z][0-9]{4}[A-Z]$",
+  "severity": {
+    "WATCHLIST_HIT": "High",
+    "METADATA_TAMPER": "High",
+    "PAN_MISMATCH": "High",
+    "NAME_MISMATCH": "High",
+    "DOB_MISMATCH": "High",
+    "MISSING_ID_PROOF": "Medium",
+    "MISSING_ADDRESS_PROOF": "Medium",
+    "MISSING_INCOME_PROOF": "Medium",
+    "PAN_INVALID_FORMAT": "Medium",
+    "ADDRESS_PIN_MISMATCH": "Medium",
+    "STALE_ADDRESS_PROOF": "Medium",
+    "INCOME_MISMATCH": "Medium",
+    "UNMASKED_AADHAAR": "Medium",
+    "UNREADABLE_DOC": "Medium"
+  },
+  "routing": {
+    "High": "ESCALATE",
+    "Medium": "REVIEW",
+    "none": "CLEAR"
+  },
+  "time_model_minutes": {
+    "_note": "Assumptions, to be replaced with timings from a pilot. Manual = reviewer opens every document and cross-checks every field.",
+    "manual_per_packet": 9.0,
+    "with_tool": {
+      "CLEAR": 1.5,
+      "REVIEW": 4.0,
+      "ESCALATE": 9.0
+    }
+  }
+}

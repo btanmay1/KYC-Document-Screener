@@ -1,0 +1,224 @@
+application_id,code,severity,message,evidence,document
+APP00001,MISSING_ADDRESS_PROOF,Medium,No Aadhaar or utility bill found as address proof,"Document types found: ['PAN', 'SALARY_SLIP']",
+APP00001,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 1,914,430 vs net pay x 12 = Rs. 810,000 (2.36x)",doc_2.pdf
+APP00001,METADATA_TAMPER,High,SALARY_SLIP PDF shows signs of editing,"created 2026-08-31, modified 2026-09-18",doc_2.pdf
+APP00007,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 23-Apr-2026, 160 days before submission",doc_3.pdf
+APP00010,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 09-Feb-2026, 249 days before submission",doc_1.pdf
+APP00013,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),XFO0S209AT,
+APP00014,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 21-Jun-2026, 130 days before submission",doc_4.pdf
+APP00018,NAME_MISMATCH,High,Name on PAN does not match application,'SNEHA MISHRA' vs 'Rohan Mohan Agarwal',doc_3.pdf
+APP00019,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00019,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,411042 vs 226082,doc_3.pdf
+APP00025,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,400059 vs 560054,doc_1.pdf
+APP00027,NAME_MISMATCH,High,Name on PAN does not match application,'KAVYA SAXENA' vs 'Vikram Singh Iyer',doc_3.pdf
+APP00029,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00035,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP']",
+APP00037,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 12-Jun-2026, 140 days before submission",doc_3.pdf
+APP00042,PAN_MISMATCH,High,PAN on card differs from PAN on application,card LRJPR1205M vs application XLYPR6607L,doc_4.pdf
+APP00053,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_4.pdf: 0 characters extracted,doc_4.pdf
+APP00054,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 20-Mar-2026, 221 days before submission",doc_4.pdf
+APP00056,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,168,786 vs net pay x 12 = Rs. 1,668,000 (1.90x)",doc_2.pdf
+APP00059,MISSING_ADDRESS_PROOF,Medium,No Aadhaar or utility bill found as address proof,"Document types found: ['PAN', 'SALARY_SLIP']",
+APP00060,DOB_MISMATCH,High,Date of birth on PAN does not match application,09-12-1968 vs 22-05-1973,doc_3.pdf
+APP00064,DOB_MISMATCH,High,Date of birth on PAN does not match application,06-09-1975 vs 17-04-1977,doc_4.pdf
+APP00069,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,110056 vs 600068,doc_4.pdf
+APP00071,DOB_MISMATCH,High,Date of birth on PAN does not match application,09-08-1971 vs 15-07-1972,doc_3.pdf
+APP00072,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,226023 vs 110041,doc_3.pdf
+APP00073,NAME_MISMATCH,High,Name on PAN does not match application,'POOJA BANSAL' vs 'Anjali Rani Verma',doc_1.pdf
+APP00073,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 05-Feb-2026, 231 days before submission",doc_2.pdf
+APP00075,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 2,837,698 vs net pay x 12 = Rs. 1,668,000 (1.70x)",doc_2.pdf
+APP00075,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_3.pdf
+APP00076,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,226097 vs 250050,doc_2.pdf
+APP00080,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),OJV5K853ET,
+APP00080,DOB_MISMATCH,High,Date of birth on PAN does not match application,13-10-1985 vs 21-11-1981,doc_1.pdf
+APP00080,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_2.pdf
+APP00081,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,302060 vs 560085,doc_1.pdf
+APP00085,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 2,773,077 vs net pay x 12 = Rs. 1,386,000 (2.00x)",doc_1.pdf
+APP00090,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00096,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_4.pdf
+APP00103,PAN_MISMATCH,High,PAN on card differs from PAN on application,card XVGPP8176X vs application CRFPP7808K,doc_2.pdf
+APP00107,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 1,942,125 vs net pay x 12 = Rs. 858,000 (2.26x)",doc_1.pdf
+APP00108,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),MHF9S638CM,
+APP00108,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 05-Mar-2026, 194 days before submission",doc_4.pdf
+APP00108,METADATA_TAMPER,High,UTILITY_BILL PDF shows signs of editing,producer 'Sejda PDF Editor',doc_4.pdf
+APP00110,WATCHLIST_HIT,High,Applicant name is a potential match to a watchlist entry,"'Viktor Aleksandr Petrenio' ~ 'Viktor Aleksandr Petrenko' (Synthetic Sanctions List), score 0.96",
+APP00114,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),SGX9P126AX,
+APP00118,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 24-Jan-2026, 254 days before submission",doc_3.pdf
+APP00120,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00122,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_2.pdf: 0 characters extracted,doc_2.pdf
+APP00122,WATCHLIST_HIT,High,Applicant name is a potential match to a watchlist entry,"'Viktor Aleksandr Petrinko' ~ 'Viktor Aleksandr Petrenko' (Synthetic Sanctions List), score 0.96",
+APP00126,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,400067 vs 302019,doc_4.pdf
+APP00130,WATCHLIST_HIT,High,Applicant name is a potential match to a watchlist entry,"'Rajinder Pal Sidhi' ~ 'Rajinder Pal Sodhi' (Synthetic PEP List), score 0.94",
+APP00131,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),MLH8K304CN,
+APP00132,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,885,073 vs net pay x 12 = Rs. 1,788,000 (2.17x)",doc_1.pdf
+APP00133,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,226061 vs 147093,doc_3.pdf
+APP00137,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 07-May-2026, 124 days before submission",doc_2.pdf
+APP00137,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 2,231,039 vs net pay x 12 = Rs. 984,000 (2.27x)",doc_3.pdf
+APP00142,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),ZLU5S760EW,
+APP00144,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_2.pdf
+APP00148,METADATA_TAMPER,High,PAN PDF shows signs of editing,producer 'PDFfiller Online',doc_2.pdf
+APP00150,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00151,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 4,094,026 vs net pay x 12 = Rs. 1,584,000 (2.58x)",doc_4.pdf
+APP00153,DOB_MISMATCH,High,Date of birth on PAN does not match application,14-04-1989 vs 28-08-1994,doc_2.pdf
+APP00153,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_3.pdf
+APP00157,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 03-Mar-2026, 213 days before submission",doc_2.pdf
+APP00159,NAME_MISMATCH,High,Name on PAN does not match application,'DIVYA GUPTA' vs 'Anjali Chandra Bansal',doc_2.pdf
+APP00161,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,250011 vs 147049,doc_3.pdf
+APP00164,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,411042 vs 147059,doc_2.pdf
+APP00165,PAN_MISMATCH,High,PAN on card differs from PAN on application,card TFNPM6980C vs application POMPM7806I,doc_3.pdf
+APP00167,DOB_MISMATCH,High,Date of birth on PAN does not match application,01-08-1998 vs 23-06-2001,doc_1.pdf
+APP00168,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 19-Mar-2026, 193 days before submission",doc_4.pdf
+APP00172,MISSING_ADDRESS_PROOF,Medium,No Aadhaar or utility bill found as address proof,"Document types found: ['PAN', 'SALARY_SLIP']",
+APP00173,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00175,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 6,121,738 vs net pay x 12 = Rs. 3,096,000 (1.98x)",doc_3.pdf
+APP00176,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 989,110 vs net pay x 12 = Rs. 390,000 (2.54x)",doc_1.pdf
+APP00177,MISSING_ADDRESS_PROOF,Medium,No Aadhaar or utility bill found as address proof,"Document types found: ['PAN', 'SALARY_SLIP']",
+APP00182,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 5,149,006 vs net pay x 12 = Rs. 2,178,000 (2.36x)",doc_3.pdf
+APP00183,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_3.pdf
+APP00184,PAN_MISMATCH,High,PAN on card differs from PAN on application,card DOZPB0692P vs application TWKPB9477S,doc_3.pdf
+APP00190,MISSING_ADDRESS_PROOF,Medium,No Aadhaar or utility bill found as address proof,"Document types found: ['PAN', 'SALARY_SLIP']",
+APP00192,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,110087 vs 147036,doc_2.pdf
+APP00193,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 22-Mar-2026, 176 days before submission",doc_2.pdf
+APP00193,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 4,051,704 vs net pay x 12 = Rs. 1,998,000 (2.03x)",doc_4.pdf
+APP00193,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_3.pdf
+APP00195,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 2,395,019 vs net pay x 12 = Rs. 924,000 (2.59x)",doc_3.pdf
+APP00202,MISSING_ADDRESS_PROOF,Medium,No Aadhaar or utility bill found as address proof,"Document types found: ['PAN', 'SALARY_SLIP']",
+APP00205,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,530,804 vs net pay x 12 = Rs. 1,374,000 (2.57x)",doc_3.pdf
+APP00206,PAN_MISMATCH,High,PAN on card differs from PAN on application,card CQSPA8831W vs application MWAPA6452R,doc_3.pdf
+APP00207,NAME_MISMATCH,High,Name on PAN does not match application,'VIKRAM JOSHI' vs 'Manish Devi Rao',doc_2.pdf
+APP00207,METADATA_TAMPER,High,PAN PDF shows signs of editing,"created 2017-05-31, modified 2026-09-13",doc_2.pdf
+APP00212,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['PAN', 'UTILITY_BILL']",
+APP00213,NAME_MISMATCH,High,Name on PAN does not match application,'SHREYA REDDY' vs 'Natalia Sorokina',doc_3.pdf
+APP00213,WATCHLIST_HIT,High,Applicant name is a potential match to a watchlist entry,"'Natalia Sorokina' ~ 'Natalia Ivanovna Sorokina' (Synthetic Sanctions List), score 1.00",
+APP00214,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00217,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['PAN', 'UTILITY_BILL']",
+APP00217,METADATA_TAMPER,High,UTILITY_BILL PDF shows signs of editing,"created 2026-09-02, modified 2026-10-10",doc_2.pdf
+APP00219,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00220,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 6,019,917 vs net pay x 12 = Rs. 2,520,000 (2.39x)",doc_4.pdf
+APP00222,WATCHLIST_HIT,High,Applicant name is a potential match to a watchlist entry,"'Victor Hugo Salizar' ~ 'Victor Hugo Salazar' (Synthetic Sanctions List), score 0.95",
+APP00224,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),PSB3A475BF,
+APP00225,METADATA_TAMPER,High,SALARY_SLIP PDF shows signs of editing,producer 'Sejda PDF Editor',doc_3.pdf
+APP00226,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,148,448 vs net pay x 12 = Rs. 1,404,000 (2.24x)",doc_1.pdf
+APP00227,NAME_MISMATCH,High,Name on PAN does not match application,'ANJALI VERMA' vs 'Tanvi Mohan Mehta',doc_3.pdf
+APP00230,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 5,050,584 vs net pay x 12 = Rs. 2,610,000 (1.94x)",doc_1.pdf
+APP00233,PAN_MISMATCH,High,PAN on card differs from PAN on application,card GVWPM4606M vs application OXZPM8124N,doc_2.pdf
+APP00233,NAME_MISMATCH,High,Name on PAN does not match application,'SHREYA KULKARNI' vs 'Vikram Devi Mehta',doc_2.pdf
+APP00234,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,411072 vs 560042,doc_3.pdf
+APP00240,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),OPX4I574CR,
+APP00240,DOB_MISMATCH,High,Date of birth on PAN does not match application,02-08-2001 vs 11-10-1999,doc_3.pdf
+APP00240,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 4,655,365 vs net pay x 12 = Rs. 2,370,000 (1.96x)",doc_2.pdf
+APP00240,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_1.pdf
+APP00242,PAN_MISMATCH,High,PAN on card differs from PAN on application,card MDIPI4949T vs application JHBPI7753L,doc_2.pdf
+APP00243,METADATA_TAMPER,High,UTILITY_BILL PDF shows signs of editing,"created 2026-07-20, modified 2026-09-04",doc_3.pdf
+APP00260,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00262,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 5,673,322 vs net pay x 12 = Rs. 2,346,000 (2.42x)",doc_2.pdf
+APP00263,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,302043 vs 411062,doc_3.pdf
+APP00265,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 5,568,611 vs net pay x 12 = Rs. 2,526,000 (2.20x)",doc_2.pdf
+APP00266,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),LTY9N660BI,
+APP00267,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00268,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),SAW8C771AT,
+APP00268,DOB_MISMATCH,High,Date of birth on PAN does not match application,04-11-1967 vs 21-12-1966,doc_3.pdf
+APP00269,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 30-Mar-2026, 166 days before submission",doc_2.pdf
+APP00271,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,149,028 vs net pay x 12 = Rs. 1,626,000 (1.94x)",doc_3.pdf
+APP00274,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,250092 vs 226002,doc_3.pdf
+APP00275,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 14-Jan-2026, 256 days before submission",doc_3.pdf
+APP00276,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN']",
+APP00277,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_2.pdf: 0 characters extracted,doc_2.pdf
+APP00277,NAME_MISMATCH,High,Name on PAN does not match application,'POOJA CHOPRA' vs 'Siddharth Lal Gupta',doc_4.pdf
+APP00278,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 02-Feb-2026, 224 days before submission",doc_3.pdf
+APP00280,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['PAN', 'UTILITY_BILL']",
+APP00283,MISSING_ADDRESS_PROOF,Medium,No Aadhaar or utility bill found as address proof,"Document types found: ['PAN', 'SALARY_SLIP']",
+APP00287,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,250006 vs 411038,doc_2.pdf
+APP00289,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['PAN', 'UTILITY_BILL']",
+APP00289,WATCHLIST_HIT,High,Applicant name is a potential match to a watchlist entry,"'Kamala Thakurdas' ~ 'Kamala Devi Thakurdas' (Synthetic PEP List), score 1.00",
+APP00290,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 19-Mar-2026, 178 days before submission",doc_1.pdf
+APP00290,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_4.pdf
+APP00290,METADATA_TAMPER,High,PAN PDF shows signs of editing,"created 2020-12-24, modified 2026-09-13",doc_3.pdf
+APP00291,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00291,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 2,367,908 vs net pay x 12 = Rs. 1,308,000 (1.81x)",doc_2.pdf
+APP00293,PAN_MISMATCH,High,PAN on card differs from PAN on application,card ZUAPA5103P vs application CDPPA7610N,doc_2.pdf
+APP00293,NAME_MISMATCH,High,Name on PAN does not match application,'NEHA REDDY' vs 'Anjali Prasad Agarwal',doc_2.pdf
+APP00293,DOB_MISMATCH,High,Date of birth on PAN does not match application,30-07-1973 vs 02-09-1965,doc_2.pdf
+APP00296,DOB_MISMATCH,High,Date of birth on PAN does not match application,19-03-1997 vs 13-02-1996,doc_2.pdf
+APP00305,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 25-Apr-2026, 168 days before submission",doc_3.pdf
+APP00305,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,459,133 vs net pay x 12 = Rs. 1,368,000 (2.53x)",doc_2.pdf
+APP00307,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 7,516,067 vs net pay x 12 = Rs. 3,114,000 (2.41x)",doc_2.pdf
+APP00313,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP']",
+APP00314,NAME_MISMATCH,High,Name on PAN does not match application,'NEHA GUPTA' vs 'Varun Rani Bansal',doc_3.pdf
+APP00315,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN']",
+APP00319,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),PTX5J817AN,
+APP00324,NAME_MISMATCH,High,Name on PAN does not match application,'ADITYA SHARMA' vs 'Riya Devi Mehta',doc_2.pdf
+APP00327,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_4.pdf: 0 characters extracted,doc_4.pdf
+APP00327,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 14-Feb-2026, 222 days before submission",doc_2.pdf
+APP00329,METADATA_TAMPER,High,PAN PDF shows signs of editing,producer 'Sejda PDF Editor',doc_3.pdf
+APP00330,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 24-Jan-2026, 235 days before submission",doc_3.pdf
+APP00332,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00333,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00338,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00339,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 6,262,588 vs net pay x 12 = Rs. 2,958,000 (2.12x)",doc_1.pdf
+APP00339,METADATA_TAMPER,High,PAN PDF shows signs of editing,"created 2019-02-02, modified 2026-09-15",doc_2.pdf
+APP00341,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['PAN', 'UTILITY_BILL']",
+APP00342,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,358,721 vs net pay x 12 = Rs. 1,680,000 (2.00x)",doc_4.pdf
+APP00345,MISSING_ADDRESS_PROOF,Medium,No Aadhaar or utility bill found as address proof,"Document types found: ['PAN', 'SALARY_SLIP']",
+APP00350,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00351,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,302023 vs 411086,doc_3.pdf
+APP00352,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 6,957,144 vs net pay x 12 = Rs. 2,952,000 (2.36x)",doc_3.pdf
+APP00353,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['PAN', 'UTILITY_BILL']",
+APP00353,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,411086 vs 250071,doc_1.pdf
+APP00354,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 21-Jan-2026, 260 days before submission",doc_3.pdf
+APP00355,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 04-Jun-2026, 135 days before submission",doc_4.pdf
+APP00356,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 6,248,875 vs net pay x 12 = Rs. 2,436,000 (2.57x)",doc_2.pdf
+APP00360,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_3.pdf: 0 characters extracted,doc_3.pdf
+APP00360,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 28-Mar-2026, 179 days before submission",doc_2.pdf
+APP00367,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),IKX5M220AO,
+APP00369,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00372,METADATA_TAMPER,High,UTILITY_BILL PDF shows signs of editing,producer 'Sejda PDF Editor',doc_2.pdf
+APP00375,PAN_MISMATCH,High,PAN on card differs from PAN on application,card TCXPG5266B vs application BCMPG8648B,doc_3.pdf
+APP00376,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['PAN', 'UTILITY_BILL']",
+APP00377,METADATA_TAMPER,High,UTILITY_BILL PDF shows signs of editing,"created 2026-09-22, modified 2026-10-11",doc_4.pdf
+APP00379,PAN_MISMATCH,High,PAN on card differs from PAN on application,card ECVPM2801F vs application HMQPM2401Z,doc_2.pdf
+APP00379,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 08-Feb-2026, 205 days before submission",doc_3.pdf
+APP00384,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP']",
+APP00388,NAME_MISMATCH,High,Name on PAN does not match application,'ARJUN MALHOTRA' vs 'Harsh Saxena',doc_2.pdf
+APP00388,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 2,189,870 vs net pay x 12 = Rs. 876,000 (2.50x)",doc_1.pdf
+APP00397,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 05-Apr-2026, 171 days before submission",doc_1.pdf
+APP00400,DOB_MISMATCH,High,Date of birth on PAN does not match application,13-10-1967 vs 07-04-1969,doc_1.pdf
+APP00401,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_1.pdf: 0 characters extracted,doc_1.pdf
+APP00404,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,400052 vs 110025,doc_3.pdf
+APP00407,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 11-Feb-2026, 228 days before submission",doc_2.pdf
+APP00408,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,250018 vs 226008,doc_2.pdf
+APP00411,NAME_MISMATCH,High,Name on PAN does not match application,'ISHITA NAIR' vs 'Manish Singh Kapoor',doc_1.pdf
+APP00415,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_3.pdf
+APP00416,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN', 'UTILITY_BILL']",
+APP00421,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_2.pdf: 0 characters extracted,doc_2.pdf
+APP00423,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 16-May-2026, 164 days before submission",doc_2.pdf
+APP00423,METADATA_TAMPER,High,UTILITY_BILL PDF shows signs of editing,"created 2026-05-16, modified 2026-10-25",doc_2.pdf
+APP00428,NAME_MISMATCH,High,Name on PAN does not match application,'RIYA PATEL' vs 'Priya Devi Gupta',doc_2.pdf
+APP00429,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 5,931,644 vs net pay x 12 = Rs. 2,880,000 (2.06x)",doc_3.pdf
+APP00435,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_4.pdf
+APP00439,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00440,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_2.pdf: 0 characters extracted,doc_2.pdf
+APP00441,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),KJG2N050BQ,
+APP00442,MISSING_ID_PROOF,Medium,No PAN card found as identity proof,"Document types found: ['AADHAAR', 'SALARY_SLIP', 'UTILITY_BILL']",
+APP00445,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 30-May-2026, 140 days before submission",doc_4.pdf
+APP00453,STALE_ADDRESS_PROOF,Medium,Utility bill older than 90 days at submission,"bill dated 15-Feb-2026, 215 days before submission",doc_3.pdf
+APP00456,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),RWN8D268BO,
+APP00460,ADDRESS_PIN_MISMATCH,Medium,PIN code on UTILITY_BILL does not match application,411086 vs 110021,doc_3.pdf
+APP00460,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,533,882 vs net pay x 12 = Rs. 2,184,000 (1.62x)",doc_2.pdf
+APP00461,DOB_MISMATCH,High,Date of birth on PAN does not match application,03-05-1997 vs 04-10-1991,doc_2.pdf
+APP00461,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_3.pdf
+APP00461,WATCHLIST_HIT,High,Applicant name is a potential match to a watchlist entry,"'Natalia Ivanovna Sorokini' ~ 'Natalia Ivanovna Sorokina' (Synthetic Sanctions List), score 0.96",
+APP00472,NAME_MISMATCH,High,Name on PAN does not match application,'MEERA JOSHI' vs 'Arjun Devi Mehta',doc_1.pdf
+APP00476,NAME_MISMATCH,High,Name on PAN does not match application,'ADITYA PATEL' vs 'Divya Kumar Sharma',doc_3.pdf
+APP00477,MISSING_INCOME_PROOF,Medium,No salary slip found as income proof,"Document types found: ['AADHAAR', 'PAN']",
+APP00481,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),MAR7D551CJ,
+APP00482,UNREADABLE_DOC,Medium,Document has no readable text layer or unrecognised type; manual check required,doc_4.pdf: 0 characters extracted,doc_4.pdf
+APP00484,PAN_MISMATCH,High,PAN on card differs from PAN on application,card JMXPG0754J vs application RWLPG0189P,doc_2.pdf
+APP00484,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 3,176,418 vs net pay x 12 = Rs. 1,650,000 (1.93x)",doc_1.pdf
+APP00489,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),WHO1S183EN,
+APP00489,UNMASKED_AADHAAR,Medium,Full Aadhaar number visible; document must be masked before storage,12-digit number present (not reproduced here),doc_3.pdf
+APP00490,NAME_MISMATCH,High,Name on PAN does not match application,'MEERA PANDEY' vs 'Neha Lal Iyer',doc_1.pdf
+APP00491,WATCHLIST_HIT,High,Applicant name is a potential match to a watchlist entry,"'Omar Haddad' ~ 'Omar Farid Haddad' (Synthetic Sanctions List), score 1.00",
+APP00494,PAN_INVALID_FORMAT,Medium,PAN on application fails the individual PAN format (AAAPA9999A),FRQ7C492DB,
+APP00497,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 5,824,232 vs net pay x 12 = Rs. 2,880,000 (2.02x)",doc_1.pdf
+APP00500,INCOME_MISMATCH,Medium,Declared income well above income evidenced by salary slip,"declared Rs. 1,282,123 vs net pay x 12 = Rs. 516,000 (2.48x)",doc_1.pdf

@@ -1,0 +1,39 @@
+{
+  "routing": {
+    "CLEAR": 319,
+    "REVIEW": 125,
+    "ESCALATE": 56
+  },
+  "packet_accuracy": {
+    "packets": 500,
+    "packets_with_planted_defects": 181,
+    "routing_accuracy": 1.0,
+    "defective_packets_missed_(routed_CLEAR)": 0,
+    "clean_packets_routed_for_review": 0,
+    "exact_reason_code_match": 1.0,
+    "confusion": {
+      "CLEAR": {
+        "CLEAR": 319,
+        "ESCALATE": 0,
+        "REVIEW": 0
+      },
+      "ESCALATE": {
+        "CLEAR": 0,
+        "ESCALATE": 56,
+        "REVIEW": 0
+      },
+      "REVIEW": {
+        "CLEAR": 0,
+        "ESCALATE": 0,
+        "REVIEW": 125
+      }
+    }
+  },
+  "time_model": {
+    "manual_minutes": 4500.0,
+    "tool_minutes": 1482.5,
+    "reduction": 0.6706
+  },
+  "processing_seconds": 15.53,
+  "ms_per_packet": 31.1
+}
